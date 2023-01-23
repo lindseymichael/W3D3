@@ -8,39 +8,72 @@ body {
     background-color: black;
     color: white;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    background-image: url(./images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    font-family: 'Raleway', sans-serif;
     background-position: top center;
     background-repeat: no-repeat;
-}
-
-nav {
-    display: flex;
-    flex-flow: row nowrap;
+    width: 1900px;
     
 }
 
-nav a {
-    flex-grow: 1;
+nav {
+    overflow: hidden;
+    position: relative;    
+    border-bottom: 2px solid white;
+    margin: 70px;
+    padding-bottom: 10px;
+          
 }
-nav a .fresh {
-    color: blue;
+.topnav {
+    display: flex;
+    justify-content: flex-start;
+}
+.right {
+    flex-grow: 0;
+    padding: 0 0 0 10px;
+    font-size: 23px;
+    align-self: flex-end;    
+}
+.fresh {
+  font-size: 30px;
+  font-weight: 500;
+  flex-grow: 8;
+  
 }
 
-.demo-wrap {
-  overflow: hidden;
-  position: relative;
+h1{
+    position: relative;    
+    font-size: 130px;
+    text-align: center;
+    border-bottom: solid white 2px;
+    width: 650px;
+    margin: 0 auto 0;
+    padding: 150px 0 25px 0;
+    font-weight: 700;
+  }
+
+h2{
+  position: relative;    
+  text-align: center;
+  font-size: 70px;
+  font-weight: lighter;
+  margin-top: 25px;
 }
 
-.demo-bg {
+img#chop {
   opacity: 0.6;
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  height: auto;
+  height: 1000px;
+  width: 1900px;
+ margin: 0 auto;
+ object-fit: cover;
 }
-
-.demo-content {
+img#bread {
   position: relative;
+  bottom: -100;
+  height: 350px;
+  width: 600px;
+
+
 }
