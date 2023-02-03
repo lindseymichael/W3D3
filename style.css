@@ -13,9 +13,15 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     overflow-x: hidden;
-    
 }
-
+img#chop {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: -20px;
+  height: 100%;
+  width: 100%
+}
 nav {
     position: relative;  
     width: 90%;
@@ -23,12 +29,7 @@ nav {
     border-bottom: 2px solid white;
     margin: 70px;
     padding-bottom: 10px;
-    
-          
-}
-.topnav {
     display: flex;
-    
 }
 .right {
     flex-grow: 0;
@@ -40,118 +41,57 @@ nav {
   font-size: 30px;
   font-weight: 500;
   flex-grow: 8;
-  
 }
- .pageOne {
+main {
+  margin: 0 20px;
+  position: relative;
+  padding-bottom: 2%;
+}
+ h1, h2 {
     position: relative;
     text-align: center;
-    height: 100%;
  }
-h1{
-      
-    font-size: 100px;    
+h1 {   
+    font-size: 130px;    
     border-bottom: solid white 2px;
     width: 600px;
     margin: 0 auto 0;
     padding: 150px 0 25px 0;
     font-weight: 700;
   }
-
-h2{
-  
-  font-size: 65;
+h2 {
+  font-size: 65px;
   font-weight: lighter;
   margin: 25px 0 240px;
 }
 
-img#chop {
-  opacity: 0.6;
-  position: absolute;
-  max-width: 100px;
-  min-width: 100%;
-  height: 110%;
-  left: 0;
-  top: -20px;
-  margin: 0 auto;
-}
-img#bread {
-  position: absolute;
-  left: 0;
-  top: 110%;
-  height: 65%;
-  min-width: 40%;
-  margin-left: 15px;
-}
-.pageTwo {
-  display: flex;
-  position: absolute;
-  height: 100%;
-  margin: 10px;
+img {
+  height: 500px;
+  width: 700px;
+  
 }
 .bread {
   display: flex;
-  position: relative;
-  flex-flow: column nowrap;
-  padding-left: 55%;
-  font-size: 25px;
-  font-weight: lighter;
-  margin: 50px 10px 0 0;
-  
-  }
-#breadtext {
-  display: flex;
-  font-size: 45px;  
-  margin: 0 0 20px 0;
-  }
-.pineapple {
-  display: flex;
-  position: absolute;
-  flex-flow: column nowrap;
-  padding-right: 43%;
-  padding-top: 400px;
-  font-size: 25px;
-  font-weight: lighter;
-  margin: 50px;
+  background-color: #333;
+  flex-flow: row nowrap;
 }
-#pineappletext {
-  display: flex;
-  font-size: 45px;  
-  margin: 50px 0 10px 0;
- }
- .pasta {
-  display: flex;
-  position: absolute;
-  flex-flow: column nowrap;
-  padding-left: 55%;
-  padding-top: 500px;
-  font-size: 25px;
-  font-weight: lighter;
-  margin: 450px 10px 0 0;
-  
-  }
-#pastatext {
-  display: flex;
-  font-size: 45px;  
-  margin: 0 0 20px 0;
-  }
 
+.content {
+  padding: 30px;
+  font-size: 25px;
+  font-weight: lighter;
   
-.images {
-  display: flex; 
+ 
+}
+.pine {
+  display: flex;
+  background-color: #333;
+  flex-flow: row-reverse nowrap;
+}
+.pasta {
+  display: flex;
+  background-color: #333;
+  flex-flow: row nowrap;
+}
 
-}
-img#pineapple {
-  position: absolute;
-  right: 0;
-  top: 177%;
-  height: 70%;
-  max-width: 40%;
-  margin: 0 15px 0 0;
-}
-img#pasta {
-  position: absolute;
-  left: 0;
-  top: 250%;
-  height: 75%;
-  min-width: 40%;
-}
+
